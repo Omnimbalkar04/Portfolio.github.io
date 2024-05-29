@@ -1,0 +1,565 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(86, 85, 85);
+    border-radius: 20px;
+}
+
+
+.day {
+    
+    background: linear-gradient(to top right, #024057, #01232f);
+    color: aliceblue;
+
+
+
+}
+
+.night {
+    color: #ffeba7;
+    background: linear-gradient(to top right, #061634, #235ebd);
+
+}
+
+/*header section*/
+
+
+header {
+    padding: 20px;
+    border: 10px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: hsla(234, 13%, 15%, 0.647);
+
+
+
+}
+
+.close{
+    display: none;
+}
+
+hr{
+    color: #ebc443;
+}
+
+.navbar ul {
+    display: flex;
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+
+}
+
+.navbar ul li a {
+    color: #ffeba7;
+    padding: 3px 22px;
+    text-decoration: none;
+
+}
+
+.item {
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    /* background-color: hsla(233, 13%, 13%, 0.647); */
+    padding: 5px 15px;
+    will-change: filter;
+    transition: filter 300ms;
+
+}
+
+.item:hover {
+    filter: drop-shadow(0 0 1em #f1d579);
+    /* box-shadow: 0 0 2em #ffeba7;
+    transition: 1s; */
+
+
+}
+
+
+
+.btn {
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    color-scheme: dark;
+    border-color: #ffeba7;
+    cursor: pointer;
+
+   
+
+
+}
+
+.btn:hover {
+    box-shadow: 0 0 3em #ffeba7;
+    transition: 1s;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.hamburger{
+   
+    display: none;
+    cursor: pointer;
+
+}
+
+.hamburgerContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+ 
+}
+
+
+/*main section1*/
+.intro-style {
+    font-family: 'Signika Negative', sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: 35px;
+    font-family: "Comfortaa", cursive;
+
+
+}
+
+.work {
+    font-size: 30px;
+    font-family: "Comfortaa", cursive;
+
+}
+
+.about1 {
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    font-size: 24px;
+    margin-top: 40px;
+    font-family: "Fira Sans", sans-serif;
+    border-radius: 100px;
+    border: 2px solid #ffeba7;
+
+}
+
+/*main section2*/
+
+.about-me {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.about2 {
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.about3 {
+    text-align: center;
+
+    background-color: hsla(240, 13%, 15%, 0.549);
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.skills {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+}
+
+
+
+.heading {
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.lang-head {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.lang {
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.tools {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.dev-tools {
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+/* project section */
+
+.projects{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+
+
+.p1 {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.p1:hover {
+    box-shadow: 0 0 2em #ffeba7;
+    transition: 2s;
+}
+
+.p1 img {
+    height: 400px;
+    width: 400px;
+}
+
+
+
+.p2 {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.p2:hover {
+    box-shadow: 0 0 2em #ffeba7;
+    transition: 2s;
+}
+
+.p2 img {
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+
+
+.p3 {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    /* letter-spacing: 6px; */
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.p3:hover {
+    box-shadow: 0 0 2em #ffeba7;
+    transition: 2s;
+}
+
+.p3 img {
+    height: 400px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+.p4 {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.p4:hover {
+    box-shadow: 0 0 2em #ffeba7;
+    transition: 2s;
+}
+
+.p4 img {
+    height: 400px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.p5 {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    /* letter-spacing: 6px; */
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.p5:hover {
+    box-shadow: 0 0 2em #ffeba7;
+    transition: 2s;
+}
+
+.p5 img {
+    height: 400px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+
+/* Education Section */
+
+.education {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+/* About Section */
+.contact-link{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+
+.social-media{
+    position: relative;
+    margin: 10px 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(233, 13%, 13%, 0.647);
+
+    
+}
+
+.social-media:hover {
+    box-shadow: 0 0 1em #ffeba7;
+    transition: 2s;
+}
+
+
+.contact {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    width: 90vw;
+}
+
+.foot-head {
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+@media (max-width: 1080px) {
+
+    header{
+        
+        position: relative;
+        
+    }
+
+    .navbar .close{
+        position: absolute;
+        right: 31px;
+        top: 25px;
+        width: 29px;
+    }
+
+    .close{
+        display: block;
+        cursor: pointer;
+        
+    }
+
+
+   .navbar {
+      
+        left: -110%;
+        position: absolute;
+        transition: all .3s;
+        z-index: 1;
+        height: 200vh;
+        /* padding: 0px; */
+        background-color: rgb(37, 37, 37);
+        /* border-radius: 20px; */
+        top: 0;
+
+        display: inline-block;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        width: 90vw;
+       
+    }
+
+    .navbar ul{
+        
+        height: 50vh;
+        text-decoration: none;
+        display: block;
+        padding: 8px 16px;
+        width: 70vw;
+       
+
+    }
+
+    .navbar ul li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+       height: 80px;
+      
+    }
+
+    .navbar ul li a{
+        padding-top: 30px;
+        font-size: 35px;
+        justify-content: center;
+        
+       
+        
+    }
+    .item li{
+        
+        width: 50px;
+      
+        
+    }
+
+
+    .hamburger{
+        display: block;
+        color: black;
+      
+     
+    }
+
+    /* .projects{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    } */
+
+   
+    /* .p3 {
+        left: 10%;
+
+    } */
+}
+
+@media (max-width: 640px) {
+    .navbar ul li a{
+        left: -110%;
+       
+       
+        
+    }
+
+}
+
+
