@@ -254,10 +254,10 @@ hr{
 /* project section */
 
 .projects{
-    width: 80vw;
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 
@@ -389,6 +389,30 @@ hr{
     width: 320px;
     border-radius: 10px;
 }
+
+.p6 {
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(234, 13%, 15%, 0.647);
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.p6:hover {
+    box-shadow: 0 0 2em #ffeba7;
+    transition: 2s;
+}
+
+.p6 img {
+    height: 400px;
+    width: 200px;
+}
+
 
 
 /* Education Section */
