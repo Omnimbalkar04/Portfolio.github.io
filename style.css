@@ -44,6 +44,7 @@ header {
     position: relative;
     justify-content: space-between;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
 
 
 
@@ -174,6 +175,7 @@ hr{
     font-family: "Fira Sans", sans-serif;
     border-radius: 100px;
     border: 2px solid #ffeba7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
 
 }
 
@@ -181,12 +183,38 @@ hr{
 
 .about-me {
     margin-top: 50px;
+    margin: 10px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
+}
 
+.about{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    background-color: hsla(234, 13%, 15%, 0.647);
+    border-radius: 20px;
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.head1{
+    color: #ffeba7;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 15px;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
 }
 
 .about2 {
@@ -194,30 +222,46 @@ hr{
     font-family: 'Libre Baskerville', serif;
     padding: 10px;
     text-align: center;
+    margin: 10px ;
 }
 
 .about3 {
     text-align: center;
-
+    margin: 10px ;
     background-color: hsla(240, 13%, 15%, 0.549);
     padding: 10px;
     font-family: 'Libre Baskerville', serif;
     font-size: 30px;
     border-radius: 10px;
 }
+.skill-container{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .skills {
     position: relative;
     margin-top: 50px;
+    margin: 15px;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
-
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
     font-size: 16px;
     letter-spacing: 6px;
     text-transform: uppercase;
+    width: 100%;
 
 }
 
@@ -255,21 +299,36 @@ hr{
 
 .projects{
     width: 100%;
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    display: inline-block;
     justify-content: center;
+    align-items: center;
     padding: 10px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    border-radius: 20px;
 }
 
+.project-container{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 
 .p1 {
     position: relative;
     margin-top: 50px;
+    margin: 15px;
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     letter-spacing: 6px;
     font-size: 20px;
     text-align: center;
@@ -282,7 +341,7 @@ hr{
 
 .p1 img {
     height: 400px;
-    width: 400px;
+    width: 300px;
 }
 
 
@@ -290,11 +349,13 @@ hr{
 .p2 {
     position: relative;
     margin-top: 50px;
+    margin: 15px;
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     letter-spacing: 6px;
     font-size: 20px;
     text-align: center;
@@ -309,7 +370,7 @@ hr{
 
 .p2 img {
     height: 400px;
-    width: 400px;
+    width: 300px;
     border-radius: 5px;
 }
 
@@ -318,11 +379,13 @@ hr{
 .p3 {
     position: relative;
     margin-top: 50px;
+    margin: 15px;
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     /* letter-spacing: 6px; */
     font-size: 20px;
     text-align: center;
@@ -343,11 +406,13 @@ hr{
 .p4 {
     position: relative;
     margin-top: 50px;
+    margin: 15px;
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     letter-spacing: 6px;
     font-size: 20px;
     text-align: center;
@@ -361,18 +426,20 @@ hr{
 
 .p4 img {
     height: 400px;
-    width: 320px;
+    width: 300px;
     border-radius: 10px;
 }
 
 .p5 {
     position: relative;
     margin-top: 50px;
+    margin: 15px;
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     /* letter-spacing: 6px; */
     font-size: 20px;
     text-align: center;
@@ -386,18 +453,20 @@ hr{
 
 .p5 img {
     height: 400px;
-    width: 320px;
+    width: 300px;
     border-radius: 10px;
 }
 
 .p6 {
     position: relative;
     margin-top: 50px;
+    margin: 15px;
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     letter-spacing: 6px;
     font-size: 20px;
     text-align: center;
@@ -410,7 +479,8 @@ hr{
 
 .p6 img {
     height: 400px;
-    width: 200px;
+    width: 300px;
+    border-radius: 5px;
 }
 
 
@@ -442,13 +512,13 @@ hr{
 
 .social-media{
     position: relative;
-    margin: 10px 5px;
+    margin: 10px 10px;
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     background-color: hsla(233, 13%, 13%, 0.647);
-
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     
 }
 
@@ -466,6 +536,7 @@ hr{
     border: none;
     border-radius: 10px;
     background-color: hsla(234, 13%, 15%, 0.647);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
     width: 90vw;
 }
 
@@ -511,6 +582,7 @@ hr{
         height: 200vh;
         /* padding: 0px; */
         background-color: rgb(37, 37, 37);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
         /* border-radius: 20px; */
         top: 0;
 
@@ -559,15 +631,17 @@ hr{
     .hamburger{
         display: block;
         color: black;
-      
+       
      
     }
 
-    /* .projects{
-        width: 80vw;
+    .project-container{
         display: flex;
         justify-content: center;
-    } */
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
 
    
     /* .p3 {
@@ -576,14 +650,149 @@ hr{
     } */
 }
 
-@media (max-width: 640px) {
-    .navbar ul li a{
-        left: -110%;
-       
-       
+@media (max-width: 786px) {
+  .project-container{
+        /* display: flex; */
+        position: relative;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+
+    /* .p1{
+        font-size: "10px";
+        letter-spacing: "2px";
+    } */
+
+    .p1 {
+        letter-spacing: 6px;
+        font-size: 10px;
+        
+    }
+    
+    .p1 img {
+        height: 300px;
+        width: 200px;
+    }
+
+    .p2 {
+        letter-spacing: 6px;
+        font-size: 10px;
+        
+    }
+    
+    .p2 img {
+        height: 300px;
+        width: 200px;
+    }
+
+    .p3 {
+        
+        font-size: 10px;
         
     }
 
+    .p3 img {
+        height: 300px;
+        width: 180px;
+        border-radius: 10px;
+    }
+
+    .p4 {
+        letter-spacing: 6px;
+        font-size: 10px;
+        
+    }
+    .p4 img {
+        height: 300px;
+        width: 200px;
+    }
+
+    .p5 {
+        
+        font-size: 10px;
+        
+    }
+
+    .p5 img {
+        height: 300px;
+        width: 200px;
+    }
+
+    .p6 {
+        letter-spacing: 6px;
+        font-size: 10px;
+        
+    }
+
+    .p6 img {
+        height: 300px;
+        width: 200px;
+    }
+
+   
 }
+
+@media (max-width: 604px) {
+    .project-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .head1{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .about2 {
+        font-size: 15px;
+    }
+    
+    .about3 {
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    
+.skills {
+    font-size: 10px;
+}
+
+.heading {
+    font-size: 15px;
+}
+
+.lang-head {
+    font-size: 10px;
+}
+
+.lang {
+    font-size: 10px;
+}
+
+.tools {
+    font-size: 10px;
+}
+
+.dev-tools {
+    font-size: 10px;
+}
+
+
+
+
+
+.foot-head {
+    font-size: 15px;
+
+}
+
+}
+
 
 
